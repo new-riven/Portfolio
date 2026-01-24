@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Computer Science Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — software engineering, systems, algorithms, and projects." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Your Name</a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle color theme" aria-pressed="false">🌓</button>
+        <button id="nav-toggle" class="icon-btn mobile-only" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-meta">
+          <p class="eyebrow">Computer Science • Software Engineering</p>
+          <h1>Your Name</h1>
+          <p class="lead">I build reliable systems, elegant algorithms, and delightful developer tools. I enjoy backend architecture, distributed systems, and performance optimization.</p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">See projects</a>
+            <a class="btn" href="resume.pdf" download>Download Resume</a>
+            <a class="muted" href="mailto:you@example.com">you@example.com</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Placeholder for image or portrait -->
+          <svg class="portrait" width="300" height="300" viewBox="0 0 300 300" role="img" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100%" height="100%" rx="16" fill="var(--surface)" />
+            <g fill="var(--muted)">
+              <circle cx="150" cy="115" r="44" />
+              <rect x="70" y="180" width="160" height="16" rx="8" />
+              <rect x="90" y="200" width="120" height="10" rx="6" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>I am a computer scientist focused on system design, algorithms, and backend engineering. I enjoy solving hard problems, mentoring others, and shipping production-quality software. Replace this paragraph with a concise summary of your background and interests.</p>
+
+        <ul class="quick-stats">
+          <li><strong>Languages:</strong> Python, C++, Java, JavaScript</li>
+          <li><strong>Areas:</strong> Distributed Systems, Databases, Algorithms</li>
+          <li><strong>Open-source:</strong> Active contributor to several projects</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="muted">A curated selection — click through for code and demos.</p>
+
+        <div class="projects-grid">
+          <!-- Project card template — duplicate and edit -->
+          <article class="project-card">
+            <div class="project-media" aria-hidden="true">
+              <!-- Small inline SVG or image -->
+              <svg width="100%" height="140" viewBox="0 0 600 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="var(--surface)" rx="8" />
+                <text x="24" y="110" fill="var(--muted)" font-size="24">Project screenshot</text>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Project One</h3>
+              <p class="project-desc">Short description: what it does, why it matters, and your role. Mention notable tech (e.g., Go, Postgres, gRPC).</p>
+
+              <div class="project-meta">
+                <div class="tags">
+                  <span class="tag">Go</span>
+                  <span class="tag">Distributed</span>
+                  <span class="tag">gRPC</span>
+                </div>
+
+                <div class="links">
+                  <a class="muted" href="https://github.com/yourname/project-one" target="_blank" rel="noopener noreferrer">Code</a>
+                  <a class="muted" href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media" aria-hidden="true">
+              <svg width="100%" height="140" viewBox="0 0 600 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="var(--surface)" rx="8" />
+                <text x="24" y="110" fill="var(--muted)" font-size="24">Project screenshot</text>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Project Two</h3>
+              <p class="project-desc">Short description: e.g., algorithm implementation, performance improvements, or tool you built.</p>
+
+              <div class="project-meta">
+                <div class="tags">
+                  <span class="tag">C++</span>
+                  <span class="tag">Algorithms</span>
+                </div>
+
+                <div class="links">
+                  <a class="muted" href="https://github.com/yourname/project-two" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media" aria-hidden="true">
+              <svg width="100%" height="140" viewBox="0 0 600 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="100%" height="100%" fill="var(--surface)" rx="8" />
+                <text x="24" y="110" fill="var(--muted)" font-size="24">Project screenshot</text>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Project Three</h3>
+              <p class="project-desc">Short description: include metrics like latency reduction, throughput, or user count if appropriate.</p>
+
+              <div class="project-meta">
+                <div class="tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">ML</span>
+                </div>
+
+                <div class="links">
+                  <a class="muted" href="https://github.com/yourname/project-three" target="_blank" rel="noopener noreferrer">Code</a>
+                  <a class="muted" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="muted">Languages, frameworks, tools, and core CS topics.</p>
+
+        <div class="skill-grid">
+          <div class="skill-col">
+            <h4>Languages</h4>
+            <ul>
+              <li>Python</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>JavaScript / TypeScript</li>
+            </ul>
+          </div>
+
+          <div class="skill-col">
+            <h4>Systems & Tools</h4>
+            <ul>
+              <li>Linux</li>
+              <li>Docker / Kubernetes</li>
+              <li>Postgres / Redis</li>
+              <li>gRPC / REST</li>
+            </ul>
+          </div>
+
+          <div class="skill-col">
+            <h4>CS Topics</h4>
+            <ul>
+              <li>Algorithms & Data Structures</li>
+              <li>Distributed Systems</li>
+              <li>Databases</li>
+              <li>Performance Optimization</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience & Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Software Engineer — Company A</h3>
+            <p class="muted">2022 — Present</p>
+            <p>Worked on backend systems, designed microservices, and reduced request latency by X%.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>B.S. in Computer Science — University B</h3>
+            <p class="muted">2018 — 2022</p>
+            <p>Graduated with honors. Relevant coursework: Algorithms, Operating Systems, Distributed Systems.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Interested in collaborating or hiring? Reach out.</p>
+
+        <div class="contact-row">
+          <div>
+            <a class="btn" href="mailto:you@example.com">Email me</a>
+            <a class="btn" href="https://github.com/yourname" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a class="btn" href="https://linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+
+          <form class="contact-form" action="#" method="post" onsubmit="return false;">
+            <label>
+              <span class="sr-only">Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span class="sr-only">Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              <span class="sr-only">Message</span>
+              <textarea name="message" rows="4" placeholder="Short message"></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Your Name — Built with purpose.</p>
+      <nav aria-label="Footer">
+        <a class="muted" href="#privacy">Privacy</a>
+        <a class="muted" href="#terms">Terms</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
